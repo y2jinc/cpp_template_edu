@@ -13,6 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\[Section4] type traits">
+      <UniqueIdentifier>{befc01ed-92f8-41e7-9196-c32a872b9cfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\[Section4] type traits\1.type traits 개념">
+      <UniqueIdentifier>{3156b3ef-b830-4bd9-98d5-226142bceb45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\[Section4] type traits\2.integral_constant">
+      <UniqueIdentifier>{445d6f3f-e58d-4ebb-aa05-bf5f28665e69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\[Section4] type traits\3.Type modification">
+      <UniqueIdentifier>{4dbab55e-2c03-4a93-8cf9-598d2ddcd361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\[Section4] type traits\4.Traits 정리">
+      <UniqueIdentifier>{d3814800-2717-417d-bd9d-5b7486d5e07c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="targetver.h">
@@ -34,6 +49,120 @@
     </ClCompile>
     <ClCompile Include="typename2.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="value_type.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="value_type2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="template.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="template_parameter1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="template_parameter2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="template_alias.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="variable_template.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="specialization.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="specialization_example.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="specialization_warning.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="specialization_partial_ordering.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="specialization_warning2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="specialization_exp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="specialization_exp2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="couple_template.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="tuple_using_couple.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="template_meta_Programming.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="int2type.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="constexpr_function.cpp">
+      <Filter>소스 파일\[Section4] type traits</Filter>
+    </ClCompile>
+    <ClCompile Include="type_query_using_type_traits.cpp">
+      <Filter>소스 파일\[Section4] type traits</Filter>
+    </ClCompile>
+    <ClCompile Include="type_tratis.cpp">
+      <Filter>소스 파일\[Section4] type traits</Filter>
+    </ClCompile>
+    <ClCompile Include="using_int2type.cpp">
+      <Filter>소스 파일\[Section4] type traits</Filter>
+    </ClCompile>
+    <ClCompile Include="using_int2type2.cpp">
+      <Filter>소스 파일\[Section4] type traits</Filter>
+    </ClCompile>
+    <ClCompile Include="using_int2type3.cpp">
+      <Filter>소스 파일\[Section4] type traits</Filter>
+    </ClCompile>
+    <ClCompile Include="integral_constant.cpp">
+      <Filter>소스 파일\[Section4] type traits</Filter>
+    </ClCompile>
+    <ClCompile Include="integral_constant2.cpp">
+      <Filter>소스 파일\[Section4] type traits</Filter>
+    </ClCompile>
+    <ClCompile Include="is_pointer.cpp">
+      <Filter>소스 파일\[Section4] type traits</Filter>
+    </ClCompile>
+    <ClCompile Include="is_array.cpp">
+      <Filter>소스 파일\[Section4] type traits</Filter>
+    </ClCompile>
+    <ClCompile Include="1_remove_pointer.cpp">
+      <Filter>소스 파일\[Section4] type traits\3.Type modification</Filter>
+    </ClCompile>
+    <ClCompile Include="2_remove_pointer.cpp">
+      <Filter>소스 파일\[Section4] type traits\3.Type modification</Filter>
+    </ClCompile>
+    <ClCompile Include="4_remove_all_pointer.cpp">
+      <Filter>소스 파일\[Section4] type traits\3.Type modification</Filter>
+    </ClCompile>
+    <ClCompile Include="3_remove_pointer.cpp">
+      <Filter>소스 파일\[Section4] type traits\3.Type modification</Filter>
+    </ClCompile>
+    <ClCompile Include="6_argument_type.cpp">
+      <Filter>소스 파일\[Section4] type traits\3.Type modification</Filter>
+    </ClCompile>
+    <ClCompile Include="5_result_type.cpp">
+      <Filter>소스 파일\[Section4] type traits\3.Type modification</Filter>
+    </ClCompile>
+    <ClCompile Include="1.type_traits.cpp">
+      <Filter>소스 파일\[Section4] type traits\4.Traits 정리</Filter>
+    </ClCompile>
+    <ClCompile Include="2.using_type_traits.cpp">
+      <Filter>소스 파일\[Section4] type traits\4.Traits 정리</Filter>
+    </ClCompile>
+    <ClCompile Include="3_type_traits_2.cpp">
+      <Filter>소스 파일\[Section4] type traits\4.Traits 정리</Filter>
+    </ClCompile>
+    <ClCompile Include="4_type_traits_3.cpp">
+      <Filter>소스 파일\[Section4] type traits\4.Traits 정리</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
